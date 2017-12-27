@@ -1,0 +1,16 @@
+[
+{
+  "modid": "adl",
+  "name": "AutoDeathLeaderboard",
+  "description": "Server-side add-on for DeathCounter (by iChun). Triggers the leaderboard in chat everytime a player dies.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["HoldYourWaffle"],
+  "credits": "iChun for making the original DeathCounter mod",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
