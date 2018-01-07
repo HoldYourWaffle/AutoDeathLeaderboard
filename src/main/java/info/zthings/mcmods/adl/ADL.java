@@ -9,10 +9,10 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-@Mod(modid = ADL.MODID, version = ADL.VERSION, dependencies="required-after:deathcounter", acceptableRemoteVersions = "*")
+@Mod(modid = ADL.MODID, version = ADL.VERSION, dependencies="required-after:deathcounter@[1.0.1,);", acceptableRemoteVersions = "*")
 public class ADL {
 	public static final String MODID = "adl";
-	public static final String VERSION = "1.1";
+	public static final String VERSION = "1.1.1";
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
